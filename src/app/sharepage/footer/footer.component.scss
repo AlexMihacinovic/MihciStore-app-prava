@@ -1,0 +1,29 @@
+$color_1: #fff;
+$color_2: var(--primary-color);
+$background-color_1: #000;
+
+.footer {
+	overflow: hidden;
+	position: sticky;
+	top: 100%;
+	background-color: $background-color_1;
+	padding: 20px 10px;
+}
+h1 {
+	font-weight: bold;
+	color: $color_1;
+	font-size: 20px;
+}
+p {
+	color: $color_1;
+	font-size: 12px;
+}
+a {
+	color: $color_1;
+	text-decoration: none;
+	padding: 0px 10px;
+	font-size: 18px;
+	&:hover {
+		color: $color_2;
+	}
+}

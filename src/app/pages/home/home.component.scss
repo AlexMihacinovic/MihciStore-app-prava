@@ -1,0 +1,55 @@
+$color_1: #fff;
+$color_2: var(--primary-color);
+$background-color_1: #fff;
+$background-color_2: var(--primary-color);
+$background-color_3: #000;
+
+.banner {
+	background-image: url(../../../assets/img/bannerimg.jpg);
+	height: 1000px;
+	background-position: center top;
+	background-size: cover;
+}
+.content {
+	top: 30%;
+	left: 20%;
+	position: absolute;
+	h1 {
+		color: $color_1;
+		font-size: 60px;
+		font-weight: bold;
+	}
+	a {
+		text-decoration: none;
+		background-color: $background-color_1;
+		color: $color_2;
+		padding: 15px 20px;
+		border-radius: 5px;
+		&:hover {
+			background-color: $background-color_2;
+			color: $color_1;
+		}
+	}
+}
+.stepBox {
+	background-color: $background-color_3;
+	padding: 20px 20px;
+	border-radius: 5px;
+	text-align: center;
+	h1 {
+		color: $color_2;
+		font-size: 50px;
+		font-weight: bold;
+	}
+	p {
+		font-size: 20px;
+		font-style: italic;
+		color: $color_1;
+	}
+}
+.highlight {
+	color: $color_2;
+	font-weight: bold;
+	font-style:italic;
+    text-decoration: underline;
+}
