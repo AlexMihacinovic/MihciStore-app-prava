@@ -1,0 +1,27 @@
+$font-family_1: Arial, sans-serif;
+
+.about-us-container {
+	width: 80%;
+	margin: 0 auto;
+	font-family: $font-family_1;
+	border-top: 1px solid #ccc;
+	padding-top: 1em;
+	text-align: center;
+	font-size: 1.5em;
+	margin-bottom: 0.5em;
+	.about-us-header {
+		text-align: center;
+		font-size: 2em;
+		margin-bottom: 1em;
+	}
+	.about-us-content {
+		line-height: 1.5;
+		p {
+			margin-bottom: 1em;
+		}
+	}
+	li {
+		list-style: none;
+		margin-bottom: 0.5em;
+	}
+}
