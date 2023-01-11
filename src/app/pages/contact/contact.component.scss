@@ -1,36 +1,36 @@
+$font-family_1: Arial, sans-serif;
 
-  .about-us-container {
-    width: 80%;
-    margin: 0 auto;
-    font-family: Arial, sans-serif;
-  
-    .about-us-header {
-      text-align: center;
-      font-size: 2em;
-      margin-bottom: 1em;
-    }
-  
-    .about-us-content {
-      line-height: 1.5;
-  
-      p {
-        margin-bottom: 1em;
-      }
-    }
-  
-    .about-us-contact {
-      border-top: 1px solid #ccc;
-      padding-top: 1em;
-  
-      .about-us-contact-header {
-        text-align: center;
-        font-size: 1.5em;
-        margin-bottom: 0.5em;
-      }
-  
-      li {
-        list-style: none;
-        margin-bottom: 0.5em;
-      }
-    }
-  }
+.about-us-container {
+	width: 80%;
+	margin: 0 auto;
+	font-family: $font-family_1;
+	.about-us-header {
+		text-align: center;
+		font-size: 2em;
+		margin-bottom: 1em;
+	}
+	.about-us-content {
+		line-height: 1.5;
+		p {
+			margin-bottom: 1em;
+		}
+	}
+	.about-us-contact {
+		border-top: 1px solid #ccc;
+		padding-top: 1em;
+		.about-us-contact-header {
+			text-align: center;
+			font-size: 1.5em;
+			margin-bottom: 0.5em;
+		}
+		li {
+			list-style: none;
+			margin-bottom: 0.5em;
+		}
+	}
+}
+div {
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+}
